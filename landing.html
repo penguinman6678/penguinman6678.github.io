@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Landing Page </title>
+    <link rel="stylesheet" type="text/css" href="landing.css"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <nav class="head-bar sticky">
+        <ul class="navigate" role="navigation">
+            <li class="option"><a href="landing.html" tabindex=1>Home Page</a></li>
+            <li class="option"><a href="bio.html" tabindex=2>Bio</a></li>
+            <li class="option"><a href="https://drive.google.com/file/d/1xOM6EosGzVQuJ6PFHZkEesCGKmBrQ9tQ/view?usp=sharing" tabindex=3>Resume</a></li>
+            <li class="option"><a href="personal.html"  tabindex=4>Personal Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header" role="introduction">
+        <p class="intro-text">Northwestern Undergraduate Student</p>
+        <h2 class="intro-text-2">Samuel Lee</h2>
+        <h3 class="project-text"> Projects Done (click on a specific project for more info)</h3>
+    </div>
+    <div class="project-wrapper"  role="project-section">
+        <div class="project2-wrapper">
+            <h3 class="project-title">Tic Tac Toe: AI Agent</h2>
+            <img class="project-image" src="images/tictactoe.png" alt="Image for Tic Tac Toe AI Agent">
+            <div class="modal2-position">
+                <a href="#modal-opened-2" class="link-1" id="modal-closed-2" tabindex=5>More Info</a>
+            </div>
+            <div class="container" id="modal-opened-2">
+                <div class="modal">
+                    <a href="#modal-closed-2" class="link-2">X</a>
+                    <div class="details">
+                        <h1 class="title">Tic Tac Toe: AI Agent</h1>
+                    </div>
+                    <ul role="project-desc">
+                        <li class="txt">Developed Tic Tac Toe: future plan is to expand playability to Gomoku</li>
+                        <li class="txt">Implemented two different AI agents that utilize the Monte Carlo Tree Search and model based learning, respectively.</li>
+                        <li class="txt">Developed a novel algorithm UCB* to make more intelligent decisions, enhancing the winning chances within games (ex: Tic Tac Toe) through the utilization of a well-known tree search
+                            algorithm, Monte Carlo Tree Search (MCTS).</li>
+                        <li class="txt">Publication based on research: Exploring to Learn Winning Strategy. Accepted to GET'19 through blind review process. </li>
+                        <li class="txt">Technologies: Python</li>
+                        <li class="txt"><a class="paper-link" href="https://www.iadisportal.org/digital-library/exploring-to-learn-winning-strategy">Link to Paper [Click me!]</a></li>
+                        <img src="images/montecarlo.png" alt="Monte Carlo Tree Search">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="project1-wrapper">
+            <h3 class="project-title"> Color Classifier for UAVs </h2>
+            <img class="project-image" src="images/tritonuas.jpeg" alt="Image for TritonUAS">
+            <div class="modal1-position">
+                <a href="#modal-opened" class="link-1" id="modal-closed" tabindex=6>More Info</a>
+            </div>
+            <div class="container" id="modal-opened">
+                <div class="modal">
+                    <a href="#modal-closed" class="link-2">X</a>
+                    <div class="details">
+                        <h1 class="title">Color Classifier from Live Image</h1>
+                    </div>
+                    <ul role="project-desc">
+                        <li class="txt">Student run team that designs UAV to compete in the National Student UAS Comeptition.</li>
+                        <li class="txt">Computer vision and Machine Learning -- developed a ML color classifier using Kmeans Clustering and Deep Learning algorithms to identify colors and numbers within an image received by UAV.</li>
+                        <li class="txt">Tools: Python, sklearn</li>
+                    </ul>
+                    <img class="uav-image" src="images/testimage.png" alt="Example of Live Image from UAV"></img>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+
+</html>
