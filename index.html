@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#research">Publications</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <!-- <li>
+                <a href="#contact">Contact</a>
+            </li> -->
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Samuel Lee</h1>
+            <h2>Computer Scientist</h2>
+            <a href="resume/Lee_Samuel_Official_Resume_1120.pdf" download="Lee_Samuel_Official_Resume" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <ul>
+                        <li>
+                            <b>Focused / Interested Research Areas</b> -- Exploring interactions among features, 
+                            Scene Understanding + 3D Scene Reconstruction, Deep Reinforcement Learning
+                        </li>
+                        <li>
+                            <b>Hobbies</b> -- Running Half Marathons, playing video games (Valorant, Destiny), playing the guitar and piano
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="January 2023 - Present">
+                <h3>Northwestern University -- Dept of Computer Science</h3>
+                <h4>Research Assistant -- Advised by Prof. Zach Wood-Doughty</h4>
+                <ul>
+                    <li>
+                        Building advanced Machine Learning models (e.g. Deep Learning, Large Language Models) to 
+                        impute unknown confounders for causal relationships
+                    </li>
+                    <li>
+                        Applying causal methodologies (e.g. measurement error + noisy proxy predictions) to examine 
+                        causality between TTE, mortality, and smoking proxy
+                    </li>
+                    <li>
+                        Check out the Publications section to view current paper / works!
+                    </li>
+                </ul>
+
+            </div>
+
+            <div data-date="June 2024 – August 2024">
+                <h3>Intuit Inc</h3>
+                <h4>Software Engineer Intern</h4>
+                <ul>
+                    <li>
+                        Proposed and implemented persistence enhancements to current API functionalities (Java) 
+                        to more efficiently handle large-scaled (200K) transactions daily
+                    </li>
+                    <li>
+                        Designed and optimized resiliency in the backend (Java) to catch + retry unpublished 
+                        transactions (Kafka), improving platform robustness for every-day use
+                    </li>
+                    <li>
+                        Ensured automation and 100% adherence to schedule by deploying persistence and 
+                        resiliency onto schedulers using AWS and Kubernetes
+                    </li>
+                    <li>
+                        Understanding the codebase of financial products, contributing new features, and 
+                        fixing other contributors' bugs
+                    </li>
+                    
+                </ul>
+            </div>
+    
+            <div data-date="January 2023 – March 2024">
+                <h3>Northwestern University: Dept of Computer Science</h3>
+                <h4>Teaching Assistant</h4>
+                <ul>
+                    <li>
+                        Courses: Machine Learning, Deep Learning, Data Engineer Studio
+                    </li>
+                    <li>
+                        Selected based on strong knowledge required for the courses + prior course performances
+                    </li>
+                    <li>
+                        Provided coursework assistance and mentorship for final projects through online/offline office hours
+                    </li>
+                </ul>
+            </div>
+
+            <div data-date="June 2022 – August 2022">
+                <h3>Ford Motor Company</h3>
+                <h4>Software Engineer Intern</h4>
+                <ul>
+                    <li>
+                        Machine Learning features pipeline: developed an end-to-end pipeline that collects 1000+ KPI data generated 
+                        from infotainment system in vehicles and visualize them through a monitoring dashboard
+                    </li>
+                    <li>
+                        Collected requirements from senior engineers, proposed the design of the system, and received approval 
+                        from the tech leadership
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Northwestern University</h3>
+            <span class="education-date">Dec 2024</span>
+            <h4>Bachelor's in Computer Science -- GPA: 3.972 / 4.00</h4>
+            <!-- <ul>
+                <li>GPA: 3.972 / 4.00</li>
+                <li>Dean's List</li>
+            </ul> -->
+        </div>
+        <!-- End .education-block -->
+
+    </div>
+    <!-- End #education -->
+
+    <div id="research" class="background-alt">
+        <h2 class="heading">Publications + Presentations</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Controlling For Unobserved Confounding with Large Language Model Classification of Patient Smoking Status</h3>
+                        <ul>
+                            <li>Selected for Oral Presentation at <a href="https://aim-fm-24.github.io/NeurIPS/">Advancements in Medical Foundation Models (AIM‐FM) Workshop</a> @ NeurIPS 2024 <b>(7outof81)</b></li>
+                            <li>Github Repo: <a href="https://github.com/controllingunobservedpaper/NEURIPS_submission_2024">https://github.com/controllingunobservedpaper/NEURIPS_submission_2024</a></li>
+                            <li>Paper link (arxiv): <a href="https://arxiv.org /abs/2411.03004">https://arxiv.org /abs/2411.03004</a></li>
+                        </ul>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Exploring to Learn Winning Strategy</h3>
+                        <ul>
+                            <li>Accepted at MCCSIS: Gaming and Entertainment Technologies 2019</li>
+                            <li>Received the <b>Encouragement Award</b>, given to a young researcher whose paper was of highest standard 
+                                based on a blind review process </li>
+                            <li>Github Repo: <a href="https://github.com/penguinman6678/AI4Fun">https://github.com/penguinman6678/AI4Fun</a></li>
+                            <li>Paper Link: <a href="http://www.iadisportal.org/digital-library/exploring-to-learn-winning-strategy">http://www.iadisportal.org/digital-library/exploring-to-learn-winning-strategy</a></li>
+                        </ul>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Javascript</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>PyTorch + Tensorflow</li>
+            <li>Git + GitHub</li>
+            <li>Springboot</li>
+            <li>Apache Kafka</li>
+            <li>AWS -- EC2, Lambda, RDS</li>
+            <li>DBMS -- NoSQL, MySQL, PostgreSQL, MongoDB, CosmosDB</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span> Samuel Lee
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/penguinman6678/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/samueljlee/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/samuel-lee-12142a198/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
